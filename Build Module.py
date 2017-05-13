@@ -76,7 +76,7 @@ def operation():
     
 
     shell = client.Dispatch("WScript.Shell")
-    shell.Run("Chrome")
+    shell.Run("Chrome -incognito")        
     print "Launched Chrome"
     print crdelay
     sleep(crdelay)
